@@ -4,7 +4,7 @@ Python utility for retrieving words from text files
 Word Finder: finds random words from a dictionary.
 Special Word Finder skips blank lines and comments.
     
-    >>> wf = WordFinder("/student/words.txt") # Use relative pathname
+    >>> wf = WordFinder("words.txt") # Use relative path and filename
     3 words read
 
     >>> wf.random()
